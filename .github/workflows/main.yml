@@ -1,0 +1,26 @@
+name: Build & Deploy to Yandex Cloud
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with: { node-version: 20 }
+
+      - run: npm ci
+      - run: npx yfm -i . -o build
+
+      - name: Publish to Yandex Cloud Storage
+        uses: yandex-cloud/github-action@v1
+        with:
+          service_account_key: ${{ secrets.YC_SA_JSON_CREDENTIALS }}
+          bucket: my-docs-bucket
+          clear: true
+          path: build/
