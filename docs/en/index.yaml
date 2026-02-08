@@ -4,3 +4,7 @@ links:
     href: about.md
   - title: Quick start — Telegram (@g00dwin_bot)
     href: quick-start-telegram.md
+  - title: Resident verification
+    href: verification.md
+  - title: Search neighbors by number
+    href: search-neighbors.md

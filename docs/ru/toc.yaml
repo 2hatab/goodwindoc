@@ -5,3 +5,7 @@ items:
     href: about.md
   - name: Быстрый старт — Telegram (@g00dwin_bot)
     href: quick-start-telegram.md
+  - name: Верификация жителей
+    href: verification.md
+  - name: Поиск соседей по номеру
+    href: search-neighbors.md
