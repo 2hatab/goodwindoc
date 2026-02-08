@@ -3,9 +3,21 @@ href: index.yaml
 items:
   - name: About
     href: about.md
-  - name: Quick start — Telegram (@g00dwin_bot)
-    href: quick-start-telegram.md
-  - name: Resident verification
-    href: verification.md
-  - name: Search neighbors by number
-    href: search-neighbors.md
+  - name: For administrators
+    items:
+      - name: Quick start — Telegram (@g00dwin_bot)
+        href: quick-start-telegram.md
+      - name: Assigning a guard
+        href: guard-invite.md
+  - name: For users
+    items:
+      - name: Resident verification
+        href: verification.md
+      - name: Search neighbors by number
+        href: search-neighbors.md
+      - name: Creating a car pass
+        href: car-pass-create.md
+  - name: For guards
+    items:
+      - name: Checking a pass at the checkpoint
+        href: car-pass-check.md

@@ -8,3 +8,9 @@ links:
     href: verification.md
   - title: Search neighbors by number
     href: search-neighbors.md
+  - title: Assigning a guard
+    href: guard-invite.md
+  - title: Creating a car pass
+    href: car-pass-create.md
+  - title: Checking a pass at the checkpoint
+    href: car-pass-check.md

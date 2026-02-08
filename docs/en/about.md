@@ -50,3 +50,6 @@ To add to a Telegram chat: go to [@g00dwin_bot](https://t.me/g00dwin_bot) and ta
 - [Quick start: Telegram bot @g00dwin_bot](quick-start-telegram.md) — add the bot to your chat and set it up in a few steps (for administrators)
 - [Resident verification](verification.md) — how to pass verification and become a resident of the house chat (for users)
 - [Search neighbors by number](search-neighbors.md) — how to message a neighbor by apartment number via the bot in the chat
+- [Assigning a guard](guard-invite.md) — how an administrator creates an invitation and assigns a guard
+- [Creating a car pass](car-pass-create.md) — how a resident creates a car pass
+- [Checking a pass at the checkpoint](car-pass-check.md) — how a guard checks a car on entry

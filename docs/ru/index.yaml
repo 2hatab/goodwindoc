@@ -8,3 +8,9 @@ links:
     href: verification.md
   - title: Поиск соседей по номеру
     href: search-neighbors.md
+  - title: Назначение охранника
+    href: guard-invite.md
+  - title: Создание пропуска на авто
+    href: car-pass-create.md
+  - title: Проверка пропуска на КПП
+    href: car-pass-check.md
