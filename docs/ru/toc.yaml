@@ -1,13 +1,7 @@
-title: Шаблон проекта документации
+title: Документация Goodwin
 href: index.yaml
-items: 
+items:
   - name: О проекте
     href: about.md
-  - name: Дополнительная страница
-    href: page.md
-  - name: Другая страница
-    href: anotherpage.md
-  - name: Подраздел
-    include:
-      path: sub-section/toc.yaml
-      mode: link
+  - name: Быстрый старт — Telegram (@g00dwin_bot)
+    href: quick-start-telegram.md
